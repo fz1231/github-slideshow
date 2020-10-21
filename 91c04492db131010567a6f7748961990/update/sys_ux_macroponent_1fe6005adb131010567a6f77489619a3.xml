@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "ckfcpccitaaaaaaiiddrhhddeuciidryb",
+  "elementLabel" : "Heading",
+  "propertyValues" : {
+    "label" : "The COC Phone Log Entry Form",
+    "variant" : "header-primary",
+    "wontWrap" : false,
+    "hasNoMargin" : false
+  },
+  "slot" : "ckfcpcciu00093r73zttcdlu2",
+  "definition" : {
+    "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+} ]</composition>
+        <data/>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <interactions/>
+        <layout>{
+  "default" : {
+    "type" : "rowColumn",
+    "root" : {"type":"row","columns":[{"type":"column","slotName":"ckfcpcciu00093r73zttcdlu2","size":"12","rows":[],"id":"ckfcpciyy000f3r73heoykszj"}],"id":"ckfcpciyy000e3r73ake6xm6h"},
+    "items" : null,
+    "rules" : null,
+    "styles" : null
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Start</name>
+        <props/>
+        <root_component/>
+        <root_component_config/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 20:50:15</sys_created_on>
+        <sys_id>1fe6005adb131010567a6f77489619a3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Start</sys_name>
+        <sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope>
+        <sys_update_name>sys_ux_macroponent_1fe6005adb131010567a6f77489619a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-21 15:47:12</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

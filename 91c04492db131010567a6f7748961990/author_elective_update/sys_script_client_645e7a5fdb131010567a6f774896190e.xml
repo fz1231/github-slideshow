@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Display Phone log banner</description>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>TEST</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   alert(g_form.getValue('phone_number.territory'));
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 12:47:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>645e7a5fdb131010567a6f774896190e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>TEST</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope>
+        <sys_update_name>sys_script_client_645e7a5fdb131010567a6f774896190e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 13:02:57</sys_updated_on>
+        <table>x_523914_coc_phone_phone_call_log</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</application>
+        <file_path/>
+        <instance_id>6236c398db997b80387021c405961934</instance_id>
+        <instance_name>dev85076</instance_name>
+        <name>sys_script_client_645e7a5fdb131010567a6f774896190e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Display Phone log banner&lt;/description&gt;&lt;field&gt;sys_created_on&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;TEST&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   alert(g_form.getValue('phone_number.territory'));
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-22 12:47:21&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;645e7a5fdb131010567a6f774896190e&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;TEST&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone"&gt;91c04492db131010567a6f7748961990&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="COC Phone Call Log"&gt;91c04492db131010567a6f7748961990&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_645e7a5fdb131010567a6f774896190e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-22 13:02:57&lt;/sys_updated_on&gt;&lt;table&gt;x_523914_coc_phone_phone_call_log&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1823554398</payload_hash>
+        <record_name>TEST</record_name>
+        <reverted_from/>
+        <source>55c04492db131010567a6f7748961992</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 13:02:57</sys_created_on>
+        <sys_id>41524313db531010567a6f774896199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174b5e8f74e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 13:02:57</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>c95243133c53101053d1a54b8783849e</update_guid>
+        <update_guid_history>c95243133c53101053d1a54b8783849e:-1823554398,d37003df3313101068e8274e5c66d07a:679703478,0e2083df2e13101048c80e40118279df:-299201883,95fff69f7013101097a4cadde0b1d63b:-1247701528,291f369fc01310103946629cdd38bad6:-1491136851,64ce7a5fd413101084984a724eefc16f:-1040790552</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 13:20:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>5bbbfaf795e0498ca24e20920caf1d10</sys_id>
+        <sys_metadata>645e7a5fdb131010567a6f774896190e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEST</sys_name>
+        <sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package>
+        <sys_parent display_value="Phone Call Log">ed8104d2db131010567a6f77489619df</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope>
+        <sys_scope_delete display_value="">801ef0faafc94148a24699c622cb3a84</sys_scope_delete>
+        <sys_update_name>sys_script_client_645e7a5fdb131010567a6f774896190e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_645e7a5fdb131010567a6f774896190e">41524313db531010567a6f774896199f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 13:20:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

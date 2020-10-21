@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="DELETE">
+        <name>Territory Configure</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-21 19:19:19</sys_created_on>
+        <sys_id>a38ecb43db571010567a6f77489619de</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Territory Configure</sys_name>
+        <sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope>
+        <sys_update_name>sys_properties_category_a38ecb43db571010567a6f77489619de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-21 19:26:43</sys_updated_on>
+        <title><![CDATA[<p>Territory Configure</p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="DELETE" query="documentkey=a38ecb43db571010567a6f77489619de"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</application>
+        <file_path/>
+        <instance_id>6236c398db997b80387021c405961934</instance_id>
+        <instance_name>dev85076</instance_name>
+        <name>sys_properties_category_a38ecb43db571010567a6f77489619de</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_properties_category"&gt;&lt;sys_properties_category action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Territory Configure&lt;/name&gt;&lt;sys_class_name&gt;sys_properties_category&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-21 19:19:19&lt;/sys_created_on&gt;&lt;sys_id&gt;a38ecb43db571010567a6f77489619de&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Territory Configure&lt;/sys_name&gt;&lt;sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone"&gt;91c04492db131010567a6f7748961990&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="COC Phone Call Log"&gt;91c04492db131010567a6f7748961990&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_properties_category_a38ecb43db571010567a6f77489619de&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-21 19:26:43&lt;/sys_updated_on&gt;&lt;title&gt;&lt;![CDATA[&lt;p&gt;Territory Configure&lt;/p&gt;]]&gt;&lt;/title&gt;&lt;/sys_properties_category&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a38ecb43db571010567a6f77489619de"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-3034922</payload_hash>
+        <record_name>Territory Configure</record_name>
+        <reverted_from/>
+        <source>55c04492db131010567a6f7748961992</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-21 19:26:43</sys_created_on>
+        <sys_id>7c905bc3db571010567a6f7748961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174b221f3180000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-21 19:26:43</sys_updated_on>
+        <type>System Property Category</type>
+        <update_guid>f49017c3f65710104172ff9578438ee6</update_guid>
+        <update_guid_history>f49017c3f65710104172ff9578438ee6:-3034922,a92f87cfc1171010148568c1671c8ee4:-1702235719,d8ee878f591710102706a01551e6a620:-505880547</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 15:04:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties_category">sys_properties_category</sys_db_object>
+        <sys_id>480a2aaf99db45c4bfa24320ff41bff9</sys_id>
+        <sys_metadata>a38ecb43db571010567a6f77489619de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Territory Configure</sys_name>
+        <sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope>
+        <sys_scope_delete display_value="">801ef0faafc94148a24699c622cb3a84</sys_scope_delete>
+        <sys_update_name>sys_properties_category_a38ecb43db571010567a6f77489619de</sys_update_name>
+        <sys_update_version display_value="sys_properties_category_a38ecb43db571010567a6f77489619de">7c905bc3db571010567a6f7748961990</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 15:04:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Phone Call Log" max_length="40" name="x_523914_coc_phone_phone_call_log" sizeclass="22" text_index="true" type="collection">
+        <element label="Case Number" max_length="50" name="case_number" type="string"/>
+        <element label="First Name" mandatory="true" max_length="30" name="first_name" type="string"/>
+        <element label="Last Name" mandatory="true" max_length="30" name="last_name" type="string"/>
+        <element label="Middle Name" max_length="30" name="middle_name" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Phone Date Time" max_length="40" name="phone_date_time" type="glide_date_time" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Phone Log" max_length="4000" name="phone_log" type="string"/>
+        <element attributes="format" label="Phone Number" mandatory="true" max_length="14" name="phone_number" type="string"/>
+    </element>
+</database>

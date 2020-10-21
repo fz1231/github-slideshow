@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list_category">
+    <sys_aw_list_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <order>100</order>
+        <sys_class_name>sys_aw_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 20:27:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>53c148d2db131010567a6f77489619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Phone Call Logs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope>
+        <sys_update_name>sys_aw_list_category_53c148d2db131010567a6f77489619aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-18 20:27:52</sys_updated_on>
+        <title>Phone Call Logs</title>
+        <workspace display_value="COC Phone Call Log">3ec14412db131010567a6f7748961960</workspace>
+    </sys_aw_list_category>
+</record_update>

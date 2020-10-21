@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="phone_number" table="x_523914_coc_phone_phone_call_log" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>phone_number</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>North America</label>
+            <language>en</language>
+            <name>x_523914_coc_phone_phone_call_log</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-21 18:06:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea4efe83db171010567a6f7748961984</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-21 18:19:41</sys_updated_on>
+            <value>North America</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>phone_number</element>
+            <name>x_523914_coc_phone_phone_call_log</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-21 18:06:50</sys_created_on>
+            <sys_id>ee4efac3db171010567a6f7748961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>phone_number</sys_name>
+            <sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope>
+            <sys_update_name>sys_choice_x_523914_coc_phone_phone_call_log_phone_number</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-21 18:06:50</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</application>
+        <file_path/>
+        <instance_id>6236c398db997b80387021c405961934</instance_id>
+        <instance_name>dev85076</instance_name>
+        <name>sys_choice_x_523914_coc_phone_phone_call_log_phone_number</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="phone_number" table="x_523914_coc_phone_phone_call_log" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>phone_number</element><hint/><inactive>false</inactive><label>North America</label><language>en</language><name>x_523914_coc_phone_phone_call_log</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-21 18:06:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ea4efe83db171010567a6f7748961984</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-21 18:19:41</sys_updated_on><value>North America</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>phone_number</element><name>x_523914_coc_phone_phone_call_log</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-21 18:06:50</sys_created_on><sys_id>ee4efac3db171010567a6f7748961978</sys_id><sys_mod_count>0</sys_mod_count><sys_name>phone_number</sys_name><sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package><sys_policy/><sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope><sys_update_name>sys_choice_x_523914_coc_phone_phone_call_log_phone_number</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-21 18:06:50</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-1901437953</payload_hash>
+        <record_name>Phone Call Log.Phone Number</record_name>
+        <reverted_from/>
+        <source>55c04492db131010567a6f7748961992</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-21 18:19:41</sys_created_on>
+        <sys_id>b2318787db171010567a6f7748961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174b1e4929d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-21 18:19:41</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>3e3187875e171010c8f9dca924c4062f</update_guid>
+        <update_guid_history>3e3187875e171010c8f9dca924c4062f:-1901437953,eb6ef6c3641710109494790240308dd0:1869238591,664efac3dc1710108740984023c8db7a:-1259484091</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-21 18:25:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>ee4efac3db171010567a6f7748961978</sys_id>
+        <sys_metadata>ee4efac3db171010567a6f7748961978</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>phone_number</sys_name>
+        <sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope>
+        <sys_scope_delete display_value="">801ef0faafc94148a24699c622cb3a84</sys_scope_delete>
+        <sys_update_name>sys_choice_x_523914_coc_phone_phone_call_log_phone_number</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_523914_coc_phone_phone_call_log_phone_number">b2318787db171010567a6f7748961930</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-21 18:25:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

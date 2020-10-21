@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_523914_coc_phone.glide.phone_number_e164.allow_national_entry</name>
+        <read_roles/>
+        <suffix>glide.phone_number_e164.allow_national_entry </suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 17:49:07</sys_created_on>
+        <sys_id>13930823db171010567a6f77489619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_523914_coc_phone.glide.phone_number_e164.allow_national_entry</sys_name>
+        <sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope>
+        <sys_update_name>sys_properties_13930823db171010567a6f77489619a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 17:49:07</sys_updated_on>
+        <type>boolean</type>
+        <value>false</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=13930823db171010567a6f77489619a4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</application>
+        <file_path/>
+        <instance_id>6236c398db997b80387021c405961934</instance_id>
+        <instance_name>dev85076</instance_name>
+        <name>sys_properties_13930823db171010567a6f77489619a4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>false</ignore_cache><is_private>false</is_private><name>x_523914_coc_phone.glide.phone_number_e164.allow_national_entry</name><read_roles/><suffix>glide.phone_number_e164.allow_national_entry </suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-22 17:49:07</sys_created_on><sys_id>13930823db171010567a6f77489619a4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_523914_coc_phone.glide.phone_number_e164.allow_national_entry</sys_name><sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package><sys_policy/><sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope><sys_update_name>sys_properties_13930823db171010567a6f77489619a4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-22 17:49:07</sys_updated_on><type>boolean</type><value>false</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=13930823db171010567a6f77489619a4"/></record_update>]]></payload>
+        <payload_hash>115798316</payload_hash>
+        <record_name>x_523914_coc_phone.glide.phone_number_e164.allow_national_entry</record_name>
+        <reverted_from/>
+        <source>55c04492db131010567a6f7748961992</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 17:49:09</sys_created_on>
+        <sys_id>1dd388a7db171010567a6f7748961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174b6eefa840000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 17:49:09</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>99d388a723171010f3579241cf611f62</update_guid>
+        <update_guid_history>99d388a723171010f3579241cf611f62:115798316</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-24 19:21:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>03707a46a4154c098143d3aab0569529</sys_id>
+        <sys_metadata>13930823db171010567a6f77489619a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_523914_coc_phone.glide.phone_number_e164.allow_national_entry</sys_name>
+        <sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope>
+        <sys_scope_delete display_value="">801ef0faafc94148a24699c622cb3a84</sys_scope_delete>
+        <sys_update_name>sys_properties_13930823db171010567a6f77489619a4</sys_update_name>
+        <sys_update_version display_value="sys_properties_13930823db171010567a6f77489619a4">1dd388a7db171010567a6f7748961963</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-24 19:21:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

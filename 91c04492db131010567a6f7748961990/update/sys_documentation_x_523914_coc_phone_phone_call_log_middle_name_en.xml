@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="middle_name" label="Middle Name" language="en" table="x_523914_coc_phone_phone_call_log">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>middle_name</element>
+            <help/>
+            <hint/>
+            <label>Middle Name</label>
+            <language>en</language>
+            <name>x_523914_coc_phone_phone_call_log</name>
+            <plural>Middle Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-21 12:49:33</sys_created_on>
+            <sys_id>0ba5b9c7db131010567a6f77489619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Middle Name</sys_name>
+            <sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope>
+            <sys_update_name>sys_documentation_x_523914_coc_phone_phone_call_log_middle_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-21 12:49:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

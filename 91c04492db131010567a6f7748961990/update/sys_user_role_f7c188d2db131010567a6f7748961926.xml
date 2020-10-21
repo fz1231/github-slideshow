@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>coc_phone_call_log</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix/>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 20:27:54</sys_created_on>
+        <sys_id>f7c188d2db131010567a6f7748961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>coc_phone_call_log</sys_name>
+        <sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope>
+        <sys_update_name>sys_user_role_f7c188d2db131010567a6f7748961926</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-18 20:27:54</sys_updated_on>
+    </sys_user_role>
+</record_update>

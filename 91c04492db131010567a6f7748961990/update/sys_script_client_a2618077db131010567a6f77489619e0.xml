@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>format phone number</description>
+        <field>phone_number</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Phone Number Verification</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   if( newValue.match(/^[0-9]+$/) != null)
+   { 
+	//if(newValue.indexOf('(') != 0) {
+		//alert ("index "+newValue.indexOf('('));
+var match = newValue.match(/^(\d{3})(\d{3})(\d{4})$/);
+
+  if (match) {
+ 
+
+		//var formatPhone=newValue.substring(0,3);
+		//var formatPhone1=newValue.substring(3,6);
+		//var formatPhone2=newValue.substring(6,11);
+		var formatPhone4 = '(' + match[1] + ') ' + match[2] + '-' + match[3] ; //'('+formatPhone+') '+formatPhone1 +'-'+formatPhone2;
+		//alert("newValue: " +formatPhone+') '+formatPhone1 +'-'+formatPhone2 );
+		g_form.setValue('phone_number', formatPhone4);
+     }
+     else {alert ("Invalid phone number!");}
+   }
+else if( newValue.match(/^\([0-9][0-9][0-9]\) *[0-9][0-9][0-9][- ]?[0-9][0-9][0-9][0-9]/) == null || newValue < 10) { alert ("Not a valid phone number: " + newValue);}
+     // return formatPhone;
+  
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 12:19:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a2618077db131010567a6f77489619e0</sys_id>
+        <sys_mod_count>90</sys_mod_count>
+        <sys_name>Phone Number Verification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope>
+        <sys_update_name>sys_script_client_a2618077db131010567a6f77489619e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 20:12:12</sys_updated_on>
+        <table>x_523914_coc_phone_phone_call_log</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
