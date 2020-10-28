@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Phone Call Log" max_length="40" name="x_523914_coc_phone_phone_call_log" sizeclass="22" text_index="true" type="collection">
+    <element label="Phone Call Log" max_length="40" name="x_523914_coc_phone_phone_call_log" sizeclass="23" text_index="true" type="collection">
         <element label="Case Number" max_length="50" name="case_number" type="string"/>
         <element label="First Name" mandatory="true" max_length="30" name="first_name" type="string"/>
         <element label="Last Name" mandatory="true" max_length="30" name="last_name" type="string"/>

@@ -8,7 +8,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Phone Number Verification</name>
+        <name>Phone Number Check</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    if (isLoading || newValue === '') {
@@ -45,15 +45,15 @@ else if( newValue.match(/^\([0-9][0-9][0-9]\) *[0-9][0-9][0-9][- ]?[0-9][0-9][0-
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a2618077db131010567a6f77489619e0</sys_id>
-        <sys_mod_count>90</sys_mod_count>
-        <sys_name>Phone Number Verification</sys_name>
+        <sys_mod_count>91</sys_mod_count>
+        <sys_name>Phone Number Check</sys_name>
         <sys_overrides/>
         <sys_package display_value="COC Phone Call Log" source="x_523914_coc_phone">91c04492db131010567a6f7748961990</sys_package>
         <sys_policy/>
         <sys_scope display_value="COC Phone Call Log">91c04492db131010567a6f7748961990</sys_scope>
         <sys_update_name>sys_script_client_a2618077db131010567a6f77489619e0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-23 20:12:12</sys_updated_on>
+        <sys_updated_on>2020-10-21 17:21:13</sys_updated_on>
         <table>x_523914_coc_phone_phone_call_log</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

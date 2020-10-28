@@ -19,7 +19,7 @@
             <sys_updated_on>2020-09-21 18:19:41</sys_updated_on>
             <value>North America</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
+        <sys_choice_set action="DELETE">
             <element>phone_number</element>
             <name>x_523914_coc_phone_phone_call_log</name>
             <sys_class_name>sys_choice_set</sys_class_name>
